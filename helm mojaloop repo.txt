@@ -1,0 +1,19 @@
+C:\Users\Administrator>Completed mojaloop set up until Kubernetes Environment Setup - 2 of 5 as per the Mojaloop Deployment & Setup Introduction guidestruggling with kubernetes dashboard verification
+'Completed' is not recognized as an internal or external command,
+operable program or batch file.
+'Setup' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>kubectl -n kube-system get po | grep tiller
+'grep' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Administrator>helm repo add mojaloop http://mojaloop.io/helm/repo/
+"mojaloop" has been added to your repositories
+
+C:\Users\Administrator>helm repo update
+Hang tight while we grab the latest from your chart repositories...
+...Skip local chart repository
+...Successfully got an update from the "mojaloop" chart repository
+...Successfully got an update from the "stable" chart repository
+Update Complete. ? Happy Helming!?

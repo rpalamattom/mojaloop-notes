@@ -1,0 +1,24 @@
+Microsoft Windows [Version 10.0.17763.168]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>helm init
+Creating C:\Users\Administrator\.helm
+Creating C:\Users\Administrator\.helm\repository
+Creating C:\Users\Administrator\.helm\repository\cache
+Creating C:\Users\Administrator\.helm\repository\local
+Creating C:\Users\Administrator\.helm\plugins
+Creating C:\Users\Administrator\.helm\starters
+Creating C:\Users\Administrator\.helm\cache\archive
+Creating C:\Users\Administrator\.helm\repository\repositories.yaml
+Adding stable repo with URL: https://kubernetes-charts.storage.googleapis.com
+Adding local repo with URL: http://127.0.0.1:8879/charts
+$HELM_HOME has been configured at C:\Users\Administrator\.helm.
+
+Tiller (the Helm server-side component) has been installed into your Kubernetes Cluster.
+
+Please note: by default, Tiller is deployed with an insecure 'allow unauthenticated users' policy.
+To prevent this, run `helm init` with the --tiller-tls-verify flag.
+For more information on securing your installation see: https://docs.helm.sh/using_helm/#securing-your-helm-installation
+Happy Helming!
+
+C:\Users\Administrator>Completed mojaloop set up until Kubernetes Environment Setup - 2 of 5 as per the Mojaloop Deployment & Setup Introduction guidestruggling with kubernetes dashboard verification

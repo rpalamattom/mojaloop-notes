@@ -1,0 +1,3 @@
+NAME         TYPE           CLUSTER-IP     EXTERNAL-IP   PORT(S)          AGE
+hello-node   LoadBalancer   10.23.241.85   <pending>     8080:31106/TCP   21s
+hello-node   LoadBalancer   10.23.241.85   35.226.48.228   8080:31106/TCP   55s
